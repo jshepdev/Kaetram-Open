@@ -1057,7 +1057,7 @@ export default class Renderer {
         if (!entity.hitPoints || entity.hitPoints < 0 || !entity.healthBarVisible) return;
 
         let barLength = this.tileSize,
-            healthX = entity.x * this.camera.zoomFactor - barLength / 2 + 8,
+            healthX = entity.x * this.camera.zoomFactor - barLength / 2 + 16,
             healthY = (entity.y - entity.sprite.height / 4) * this.camera.zoomFactor,
             healthWidth = ~~(
                 (entity.hitPoints / entity.maxHitPoints) *
