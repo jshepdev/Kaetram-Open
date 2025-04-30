@@ -5198,5 +5198,36 @@
             "archery": 76,
             "magic": 83
         }
+    },
+    "chicken": {
+        "name": "Chicken",
+        "description": "It's a chicken.",
+        "dropTables": ["ordinary"],
+        "hitPoints": 15,
+        "level": 1,
+        "aggroRange": 2,
+        "attackRate": 1200,
+        "movementSpeed": 500,
+        "respawnDelay": 20000,
+        "attackStats": {
+            "crush": 0,
+            "slash": 1,
+            "stab": 1,
+            "archery": 0,
+            "magic": 0
+        },
+        "defenseStats": {
+            "crush": 0,
+            "slash": 0,
+            "stab": 0,
+            "archery": 0,
+            "magic": 0
+        },
+        "bonuses": {
+            "accuracy": 0,
+            "strength": 0,
+            "archery": 0,
+            "magic": 0
+        }
     }
 }
