@@ -1088,7 +1088,7 @@ export default class Renderer {
      */
 
     private drawName(entity: Character | Item): void {
-        let x = entity.x + 8, // Default offsets
+        let x = entity.x + 16, // Default offsets
             y = entity.y - 5,
             colour = 'white';
 
